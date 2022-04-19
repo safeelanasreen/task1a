@@ -29,7 +29,9 @@
      padding: 70px;
      float: left; 
      margin:10px; 
+     margin-left: 20px;
      box-sizing: border-box;
+     
 
  
 }
@@ -41,6 +43,7 @@
     padding:10px;
     float:right;
     margin:10px;
+    margin-right: 20px;
     box-sizing: border-box;
 
 } 
@@ -70,4 +73,7 @@
 }
 #main1{
     text-align: center;
+}
+body{
+    margin:50px,80px;
 }
