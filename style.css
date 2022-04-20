@@ -1,4 +1,6 @@
-
+.container{
+margin:50px;
+}
 #header{
     background-color: rgb(0, 51, 145);
     height: 15px;
@@ -11,49 +13,50 @@
     
 }
 #main{
-    height: 280px;
+    height: 400px;
     background-color: rgb(10, 10, 27);
-    margin: 20px;
+    /* margin: 20px; */
     text-align:right;
     color: white;
     font-size:large;
     box-sizing: border-box;
+    margin-left: 20px;
 
 
 }
 #aside{
-    height:220px;
+    height:300px;
     width:30%;
     background-color: rgb(0, 51, 145);
      text-align:center;
-     padding: 70px;
+     padding: 120px;
      float: left; 
-     margin:10px; 
-     margin-left: 20px;
+     margin:20px; 
+     margin-left: 40px;
      box-sizing: border-box;
      
 
  
 }
 #section{
-    height:220px;
+    height:300px;
     width:60%;
     background-color: rgb(0, 51, 145);
     text-align: center;
     padding:10px;
     float:right;
-    margin:10px;
-    margin-right: 20px;
+    margin:20px;
+    margin-right: 40px;
     box-sizing: border-box;
 
 } 
 #article{
 
-    height:120px;
-    width:30%;
+    height:220px;
+    width:50%;
     background-color: rgb(216, 17, 76);
     text-align: center;
-    padding:50px;
+    padding:90px;
     margin:auto;
     margin-top: 10px;
     box-sizing: border-box;
@@ -71,9 +74,14 @@
     font-size: large;
 
 }
-#main1{
+#main-head{
     text-align: center;
 }
-body{
+/* body{
     margin:50px,80px;
+} */
+*{
+    font-family: 'Roboto', sans-serif;
+
+
 }
